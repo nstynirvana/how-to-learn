@@ -9,9 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-body{
+body {
   /* width: 100%; */
 }
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -188,8 +189,8 @@ body{
 
 
 .table__heading {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -211,7 +212,7 @@ body{
   background-color: #f2f2f2;
   height: 890px;
   position: relative;
-  z-index: 15;  
+  z-index: 15;
 }
 
 .feynman__title {
@@ -385,7 +386,7 @@ body{
 }
 
 .footer__column-link {
-  text-decoration: none; 
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
