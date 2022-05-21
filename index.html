@@ -8,8 +8,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./vendor/normalize.css">
-
   <link rel="stylesheet" href="./styles/style.css">
 
   <link rel="stylesheet" href="./pages/index.css">
@@ -27,10 +25,10 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?
-        <a class="header__link" href="#">Узнать→</a>
+        <a class="header__link" href="#">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение грустного мальчика">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic header__square-pic_rotation"></div>
     </header>
 
     <main class="content">
@@ -84,7 +82,7 @@
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
           </li>
-          </ul>
+        </ul>
       </section>
 
       <section class="video">
@@ -97,7 +95,7 @@
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
@@ -106,7 +104,7 @@
               тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши
               добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -158,18 +156,18 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
-      школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания,
-      которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+            всему миру. Книгу «Весь мир —
+            школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
+            знания,
+            которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-              <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана">
-              <div>
-                <a class="khan__buy-link" href="#">Купить книгу →</a>
-              </div>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана">
+            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -220,28 +218,32 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle kaufman__triangle_rotation"></div>
       </section>
- 
+
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-          <nav>
-            <ul class="resources__logo-zone">
-              <li class="resources__link">
-                <a  href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Arzamas"></a>
-              </li>
-              <li class="resources__link">
-                <a  href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1"></a>
-              </li>
-              <li class="resources__link">
-                <a  href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Strelka"></a>
-              </li>
-              <li class="resources__link">
-                <a href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a>
-              </li>
-            </ul>
-          </nav>
+        <nav>
+          <ul class="resources__logo-zone">
+            <li class="resources__list-item">
+              <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg"
+                  alt="Логотип Arzamas"></a>
+            </li>
+            <li class="resources__list-item">
+              <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg"
+                  alt="Логотип N+1"></a>
+            </li>
+            <li class="resources__list-item">
+              <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg"
+                  alt="Логотип Strelka"></a>
+            </li>
+            <li class="resources__list-item">
+              <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg"
+                  alt="Логотип Полка"></a>
+            </li>
+          </ul>
+        </nav>
       </section>
 
     </main>
@@ -269,16 +271,21 @@
           <nav>
             <ul class="footer__column-links">
               <li>
-                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбука">
-                <a class="footer__column-link" href="#">Facebook</a>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon" src="./images/facebook_color_white.svg"
+                    alt="Логотип Фейсбука">Facebook
+                </a>
               </li>
               <li>
-                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">
-                <a class="footer__column-link" href="#">ВКонтакте</a>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">ВКонтакте
+                </a>
               </li>
               <li>
-                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграма">
-                <a class="footer__column-link" href="#">Instagram</a>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon" src="./images/instagram_color_white.svg"
+                    alt="Логотип Инстаграма">Instagram
+                </a>
               </li>
             </ul>
           </nav>
